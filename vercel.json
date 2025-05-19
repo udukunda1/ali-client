@@ -3,8 +3,7 @@
   "builds": [
     {
       "src": "package.json",
-      "use": "@vercel/static-build",
-      "NPM_FLAGS": "--legacy-peer-deps"
+      "use": "@vercel/static-build"
     }
   ],
   "routes": [
