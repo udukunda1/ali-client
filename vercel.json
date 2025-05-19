@@ -7,10 +7,10 @@
       "use": "@vercel/static"
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/build/$1"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
