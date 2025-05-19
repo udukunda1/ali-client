@@ -1,16 +1,7 @@
 {
   "version": 2,
-  "public": true,
-  "builds": [
-    {
-      "src": "build/**",
-      "use": "@vercel/static"
-    }
-  ],
+  "outputDirectory": "build",
   "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
+    { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
